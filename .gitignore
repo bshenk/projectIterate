@@ -1,5 +1,6 @@
 .eslintcache
 npm-debug.log
+.meteor/versions
 *.scssc
 .sass-cache/*
 .DS_Store
