@@ -1,10 +1,10 @@
 import React, { PropTypes, Component } from 'react'
 import { Components, withList, withCurrentUser, Loading } from 'meteor/vulcan:core'
 
-import Movies from '../../modules/movies/collection.js'
-import MoviesItem from './MoviesItem.jsx'
+import Movies from '../../modules/movies/collection'
+import MoviesItem from './MoviesItem'
 
-const MoviesList = ({results = [], currentUser, loading, loadMore, count, totalCount}) =>
+const MoviesList = ({ results = [], currentUser, loading, loadMore, count, totalCount }) =>
 
   <div style={{ maxWidth: '500px', margin: '20px auto' }}>
 
